@@ -10,7 +10,7 @@ Selenium
 
 Discription of Project:
 
--There are total of 14 forms which need to be tested. 
+-There is a total of 14 forms that need to be tested. 
 
 -Iframes and ShadowDOMs have been used in the webpage.
 
@@ -19,7 +19,7 @@ Discription of Project:
 -Created One TestCase for testing each form
 
 Testing Parameter:
-Are the responses field by the user and the responses sent to the server same?
+Are the responses filled by the user and the responses sent to the server same?
 
 
 Fields which I tested:
