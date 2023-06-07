@@ -1,90 +1,64 @@
-# nunit_testing
+# Unit Testing
 
-# CloudQA
+This repository contains code for automating testing using NUnit, a unit testing framework for .NET 6.0 with C# and Selenium.
 
+## Project Description
 
+The project aims to automate the testing of 14 forms. The webpages include the usage of iframes and ShadowDOMs. After clicking the submit button, the user's responses are displayed and sent to the server.
 
-Purpose:  Writing script for automating testing.
+Each form has been assigned a separate test case. The tested fields of the form include:
 
+- First name
+- Last name
+- Date of Birth
+- Checkbox for accepting terms and conditions
 
+For forms 1-12, the following test case was used:
 
+- First name: Akshat
+- Last name: Gadhwal
+- Date of Birth: 1999-12-12
+- Terms and conditions checkbox checked
 
-#Nunit ( unit testing framework )
+For forms 13 & 14, the following test case was used:
 
-#.NET 6.0 - C#
+- First name
+- Second name
+- Gender
 
-#Selenium
+## Test Results
 
+The testing results are as follows:
 
+- Number of forms passed: 13
+- Number of forms failed: 1
 
+In case of failure, the logs will display the response sent to the server.
 
+## Technologies Used
 
+- NUnit Testing
+- .NET 6.0
+- Selenium
+- C#
 
+Please refer to the code in this repository for more details.
 
-Discription of Project:
+## How to Use
 
-       -There is a total of 14 forms that need to be tested. 
+To run the unit tests, follow these steps:
 
-       -Iframes and ShadowDOMs have been used in the webpage.
+1. Clone the repository: `git clone https://github.com/AkshatGadhwal/unit-testing.git`
+2. Open the project in your preferred development environment.
+3. Ensure you have the necessary dependencies and frameworks installed.
+4. Run the unit tests using your testing framework or IDE.
 
-       -After clicking the submit button we can see the responses field by the user. These same responses have been sent to the server
+## Contributions
 
-       -Created One TestCase for testing each form
+Contributions to this project are welcome. If you have any improvements or additional test cases, feel free to open a pull request.
 
+## License
 
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-
-
-
-
-Tested Fields of the form:
-
-        (a)"first name"
-        
-        (b)"last Name"
-        
-        (c)"Date of Birth"
-        
-        (d)"check box for accepting terms and conditions"
-       
-       
-
-Test Case for form 1-12:
-
-        First name: Akshat
-        
-        Last Name: Gadhwal
-        
-        DoB : 1999-12-12
-        
-        Terms & condition box checked
-        
-        
-
-Test Case for form 13 & 14:
-
-        -"First Name"
-        
-        -"Second Name"
-        
-        -"Gender"
-
-
-
-Result: 
-
-        -Number of forms passed: 13
-        
-        -Number of forms failed: 1
-   
-
-Logs:  In case of Failure, It will print out the response which has been sent to the server
-
-
-#Nunit Testing
-
-#.NET 6.0
-
-#Selenium
-
-#C#
+Happy testing!
